@@ -7,5 +7,6 @@ adjacent_beams_injection_filterbank_version.py: This will output the filterbanks
 
 adjacent_beams_getting_candidate_files_fetch.py: This will generate the injected Furbies in the adjacent and side beams, as well as output the candidate parameter file required to make candidates using FETCH candmaker described in https://github.com/devanshkv/fetch.
 
+furby_beam_info.csv: This file is the output from the adjacent_beams_getting_candidate_files_fetch.py file. It gives the "DM_inj,SNR_inj,beam,furby_id,main_beam,side_beam,tstamp" values for convenience.
 
 fetch_path_to_make_cands.csv: Example of the fetch candidate parameter file.
