@@ -13,6 +13,7 @@ fetch_path_to_make_cands.csv: Example of the fetch candidate parameter file.
 
 concatenation_of_fetch_candidate_files.py: This script can be used in the concatenation of the h5 files that have been injected with the furby candidate. The output of the files must indicate the beam numbers and whether the file is the main beam or side beam. This can be actieved by making small changes to the candmaker and candidate script in the FETCH candidate maker. The adjacent_beams_getting_candidate_files_fetch.py script outputs this information onto the parameter file, which can be used to modify the name of the candidates.
 
-adjecent_beams_removal.py: This is the CNN code. The weights will be stored as "weights.best.5D_FINAL_learning_rate_0.001_batch_150_epochs_100.hdf5", and the model is stored as a JSON file: model.json.
+adjecent_beams_removal.py: This is the CNN code. The weights will be stored as "weights.best.5D_FINAL_learning_rate_0.001_batch_150_epochs_100.hdf5", and the model is stored as a JSON file: model.json. The "training.csv file is of the format:
+concatenated_beam_filename.h5, label
 
 CNN_neural_net_get_AOC.py: This file gives the predictions and the value for area under curve. The predictions are stored in a file called predictions_output.py
